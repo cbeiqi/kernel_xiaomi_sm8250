@@ -1,9 +1,16 @@
 # SPDX-License-Identifier: GPL-2.0
 VERSION = 4
 PATCHLEVEL = 19
-SUBLEVEL = 157
+SUBLEVEL = 259
 EXTRAVERSION =
 NAME = "People's Front"
+
+PRODUCT_NAME := xiaomi
+PRODUCT_DEVICE := umi
+PRODUCT_BRAND := Android
+PRODUCT_MODEL := AOSP on msm8996
+PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_RESTRICT_VENDOR_FILES := true
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
